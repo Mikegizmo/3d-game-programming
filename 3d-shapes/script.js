@@ -47,7 +47,7 @@ disc.rotation.set(0.5, 0.5, 0);
 disc.position.set(500, 0, -250);
 
 // cone
-var shape = new THREE.CylinderGeometry(1, 100, 100);
+var shape = new THREE.CylinderGeometry(1, 50, 150);
 var cover = new THREE.MeshNormalMaterial(flat);
 const cone = new THREE.Mesh(shape, cover);
 scene.add(cone);
